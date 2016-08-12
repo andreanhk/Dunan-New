@@ -54,6 +54,9 @@
 <!-- Fav Icon -->
 <link rel="shortcut icon" href="#">
 
+<!-- Justified Gallery -->
+<link rel="stylesheet" href="<?php echo $root; ?>assets/css/justifiedGallery.min.css">
+
 <link rel="apple-touch-icon" href="#">
 <link rel="apple-touch-icon" sizes="114x114" href="#">
 <link rel="apple-touch-icon" sizes="72x72" href="#">
@@ -118,35 +121,35 @@
             
             <div class="span10">
 				<div id="img-container">
-					<div class="item"><img src="<?php echo $root; ?>assets/img/work/thumbs/image-01 (1).jpg"></img></div>
-					<div class="item"><img src="<?php echo $root; ?>assets/img/work/thumbs/image-01 (2).jpg"></img></div>
-					<div class="item"><img src="<?php echo $root; ?>assets/img/work/thumbs/image-01 (3).jpg"></img></div>
-					<div class="item"><img src="<?php echo $root; ?>assets/img/work/thumbs/image-01 (4).jpg"></img></div>
-					<div class="item"><img src="<?php echo $root; ?>assets/img/work/thumbs/image-01 (5).jpg"></img></div>
-					<div class="item"><img src="<?php echo $root; ?>assets/img/work/thumbs/image-01 (6).jpg"></img></div>
-					<div class="item"><img src="<?php echo $root; ?>assets/img/work/thumbs/image-01 (7).jpg"></img></div>
-					<div class="item"><img src="<?php echo $root; ?>assets/img/work/thumbs/image-01 (8).jpg"></img></div>
-					<div class="item"><img src="<?php echo $root; ?>assets/img/work/thumbs/image-01 (9).jpg"></img></div>
-					<div class="item"><img src="<?php echo $root; ?>assets/img/work/thumbs/image-01 (10).jpg"></img></div>
-					<div class="item"><img src="<?php echo $root; ?>assets/img/work/thumbs/image-01 (11).jpg"></img></div>
-					<div class="item"><img src="<?php echo $root; ?>assets/img/work/thumbs/image-01 (12).jpg"></img></div>
-					<div class="item"><img src="<?php echo $root; ?>assets/img/work/thumbs/image-01 (13).jpg"></img></div>
-					<div class="item"><img src="<?php echo $root; ?>assets/img/work/thumbs/image-01 (14).jpg"></img></div>
-					<div class="item"><img src="<?php echo $root; ?>assets/img/work/thumbs/image-01 (15).jpg"></img></div>
-					<div class="item"><img src="<?php echo $root; ?>assets/img/work/thumbs/image-01 (16).jpg"></img></div>
-					<div class="item"><img src="<?php echo $root; ?>assets/img/work/thumbs/image-01 (17).jpg"></img></div>
-					<div class="item"><img src="<?php echo $root; ?>assets/img/work/thumbs/image-01 (18).jpg"></img></div>
-					<div class="item"><img src="<?php echo $root; ?>assets/img/work/thumbs/image-01 (19).jpg"></img></div>
-					<div class="item"><img src="<?php echo $root; ?>assets/img/work/thumbs/image-01 (20).jpg"></img></div>
-					<div class="item"><img src="<?php echo $root; ?>assets/img/work/thumbs/image-01 (21).jpg"></img></div>
-					<div class="item"><img src="<?php echo $root; ?>assets/img/work/thumbs/image-01 (22).jpg"></img></div>
-					<div class="item"><img src="<?php echo $root; ?>assets/img/work/thumbs/image-01 (23).jpg"></img></div>
-					<div class="item"><img src="<?php echo $root; ?>assets/img/work/thumbs/image-01 (24).jpg"></img></div>
-					<div class="item"><img src="<?php echo $root; ?>assets/img/work/thumbs/image-01 (25).jpg"></img></div>
-					<div class="item"><img src="<?php echo $root; ?>assets/img/work/thumbs/image-01 (26).jpg"></img></div>
-					<div class="item"><img src="<?php echo $root; ?>assets/img/work/thumbs/image-01 (27).jpg"></img></div>
-					<div class="item"><img src="<?php echo $root; ?>assets/img/work/thumbs/image-01 (28).jpg"></img></div>
-					<div class="item"><img src="<?php echo $root; ?>assets/img/work/thumbs/image-01 (29).jpg"></img></div>
+					<div><img src="<?php echo $root; ?>assets/img/work/thumbs/image-01 (1).jpg"></img></div>
+					<div><img src="<?php echo $root; ?>assets/img/work/thumbs/image-01 (2).jpg"></img></div>
+					<div><img src="<?php echo $root; ?>assets/img/work/thumbs/image-01 (3).jpg"></img></div>
+					<div><img src="<?php echo $root; ?>assets/img/work/thumbs/image-01 (4).jpg"></img></div>
+					<div><img src="<?php echo $root; ?>assets/img/work/thumbs/image-01 (5).jpg"></img></div>
+					<div><img src="<?php echo $root; ?>assets/img/work/thumbs/image-01 (6).jpg"></img></div>
+					<div><img src="<?php echo $root; ?>assets/img/work/thumbs/image-01 (7).jpg"></img></div>
+					<div><img src="<?php echo $root; ?>assets/img/work/thumbs/image-01 (8).jpg"></img></div>
+					<div><img src="<?php echo $root; ?>assets/img/work/thumbs/image-01 (9).jpg"></img></div>
+					<div><img src="<?php echo $root; ?>assets/img/work/thumbs/image-01 (10).jpg"></img></div>
+					<div><img src="<?php echo $root; ?>assets/img/work/thumbs/image-01 (11).jpg"></img></div>
+					<div><img src="<?php echo $root; ?>assets/img/work/thumbs/image-01 (12).jpg"></img></div>
+					<div><img src="<?php echo $root; ?>assets/img/work/thumbs/image-01 (13).jpg"></img></div>
+					<div><img src="<?php echo $root; ?>assets/img/work/thumbs/image-01 (14).jpg"></img></div>
+					<div><img src="<?php echo $root; ?>assets/img/work/thumbs/image-01 (15).jpg"></img></div>
+					<div><img src="<?php echo $root; ?>assets/img/work/thumbs/image-01 (16).jpg"></img></div>
+					<div><img src="<?php echo $root; ?>assets/img/work/thumbs/image-01 (17).jpg"></img></div>
+					<div><img src="<?php echo $root; ?>assets/img/work/thumbs/image-01 (18).jpg"></img></div>
+					<div><img src="<?php echo $root; ?>assets/img/work/thumbs/image-01 (19).jpg"></img></div>
+					<div><img src="<?php echo $root; ?>assets/img/work/thumbs/image-01 (20).jpg"></img></div>
+					<div><img src="<?php echo $root; ?>assets/img/work/thumbs/image-01 (21).jpg"></img></div>
+					<div><img src="<?php echo $root; ?>assets/img/work/thumbs/image-01 (22).jpg"></img></div>
+					<div><img src="<?php echo $root; ?>assets/img/work/thumbs/image-01 (23).jpg"></img></div>
+					<div><img src="<?php echo $root; ?>assets/img/work/thumbs/image-01 (24).jpg"></img></div>
+					<div><img src="<?php echo $root; ?>assets/img/work/thumbs/image-01 (25).jpg"></img></div>
+					<div><img src="<?php echo $root; ?>assets/img/work/thumbs/image-01 (26).jpg"></img></div>
+					<div><img src="<?php echo $root; ?>assets/img/work/thumbs/image-01 (27).jpg"></img></div>
+					<div><img src="<?php echo $root; ?>assets/img/work/thumbs/image-01 (28).jpg"></img></div>
+					<div><img src="<?php echo $root; ?>assets/img/work/thumbs/image-01 (29).jpg"></img></div>
 				</div>
 			</div>
         <!-- End Gallery Photos -->
@@ -164,6 +167,8 @@
 <!-- Js -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> <!-- jQuery Core -->
 <script src="<?php echo $root; ?>assets/js/bootstrap.min.js"></script> <!-- Bootstrap -->
+
+<script src="<?php echo $root; ?>assets/js/jquery.justifiedGallery.min.js"></script> <!-- Justified Gallery -->
 
 <script src="<?php echo $root; ?>assets/js/jquery.isotope.js"></script> <!-- Isotope Filter -->
 <script src="<?php echo $root; ?>assets/js/jquery.fancybox.pack.js"></script> <!-- Fancybox -->
