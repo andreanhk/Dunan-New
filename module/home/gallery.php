@@ -168,14 +168,13 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> <!-- jQuery Core -->
 <script src="<?php echo $root; ?>assets/js/bootstrap.min.js"></script> <!-- Bootstrap -->
 
-<script src="<?php echo $root; ?>assets/js/jquery.justifiedGallery.min.js"></script> <!-- Justified Gallery -->
-
 <script src="<?php echo $root; ?>assets/js/jquery.isotope.js"></script> <!-- Isotope Filter -->
 <script src="<?php echo $root; ?>assets/js/jquery.fancybox.pack.js"></script> <!-- Fancybox -->
 <script src="<?php echo $root; ?>assets/js/jquery.fancybox-media.js"></script> <!-- Fancybox for Media -->
 
 <script src="<?php echo $root; ?>assets/js/plugins.js"></script> <!-- Contains: jPreloader, jQuery Easing, jQuery ScrollTo, jQuery One Page Navi -->
 <script src="<?php echo $root; ?>assets/js/main.js"></script> <!-- Default JS -->
+<script src="<?php echo $root; ?>assets/js/jquery.justifiedGallery.min.js"></script> <!-- Justified Gallery -->
 <script src="<?php echo $root; ?>assets/js/jquery.nicescroll.js"</script> <!-- Nicescroll -->
 
 <!-- Modernizr -->
